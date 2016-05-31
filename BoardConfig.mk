@@ -38,5 +38,4 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_THEME := portrait_mdpi
 TW_NO_EXFAT_FUSE := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/mt_usb/gadget/lun%d/file"
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_NO_REBOOT_BOOTLOADER := true
