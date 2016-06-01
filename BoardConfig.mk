@@ -8,7 +8,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 TARGET_PREBUILT_KERNEL := device/lge/w7/kernel
 
-BOARD_MKBOOTIMG_ARGS := --base 00000000 --pagesize 2048 --kernel_offset 00008000 --ramdisk_offset 01000000 --tags_offset 00000100   --cmdline 'console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 msm_rtb.filter=0x37 androidboot.hardware=w7 androidboot.selinux=enforcing'  --dt ~/omni/device/lge/w7/boot.img-dtb
+BOARD_MKBOOTIMG_ARGS := --base 00000000 --pagesize 2048 --kernel_offset 00008000 --ramdisk_offset 01000000 --tags_offset 00000100   --cmdline 'console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 msm_rtb.filter=0x37 androidboot.hardware=w7 androidboot.selinux=enforcing'  --dt device/lge/w7/boot.img-dtb
 
 
 # TWRP Recovery
